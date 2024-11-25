@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+    <title>PoHa Wedding Invitation</title>
+    <link rel="icon" type="image/x-icon" href="https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?cs=srgb&dl=pexels-pixabay-36753.jpg&fm=jpg">
+      <link rel="stylesheet" href="wedding.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Wedding Invitation | 3rd June  | Vasavi Kalyana Mandapam Khairtabad, Hyderabad" />
+      <meta property="og:description"
+         content="With the divine grace of the almighty, inviting you and your family to the wedding of Mallampalli Sri Harsha & Putrevu Pooja Rao on June 3rd @ 1:20 AM(Early hours of 4th June) at Vasavi Kalyana Mandapam, Khairtabad" />
+      <meta property="og:url" content="" />
+      <meta property="og:site_name" content="Wedding Invitation | 3rd June 2023" />
+      <meta name="twitter:card" content="website">
+      <meta name="twitter:site" content="Wedding Invitation | 3rd June 2023">
+      <meta name="twitter:title" content="Wedding Invitation | 3rd June 2023">
+      <link href="https://fonts.cdnfonts.com/css/kapakana" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>    
+      <!-- partial:index.partial.html -->
+      <div class="sakura-falling"></div>
+      
+      <section id="media"></section>
+      <div class="wrap">
+         <div class="title" style="text-align: center;">
+            <h1>Andrés & Marian</h1>
+            
+            <h3>Se van a casar</h3>
+            <p>
+               El <span class="date">21 de diciembre 2024 (Sábado)</span></29>, en el <span class="place">"Santuario Nuestra Señora de Lourdes"</span>, Santos Lugares
+                              <p> te esperamos a las </p>
+                               <p>7:50 PM</p>                 
+            </p>
+         </div>
+      </div>
+      <h3>
+         Luego de la ceremonia de boda, se realizará una cena a partir de las 9:40 PM.
+      </h3>
+        <div class="button-container">
+            <a href=""><button class="venue">Dónde es la cena?</button></a>
+        </div>
+      <p class="footer">
+         Confirmá tu asistencia!! Esperamos tu presencia. <br>
+         Con amor de Andrés y Marian...
+         <span></span>
+       <div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfs0rjEGWKrq2OA30gO63jKZjcG4q6J3KRuG51skPw2eQ5f8Q/viewform?usp=sf_link" target="_blank"><button class="venue">Confirma tu asistencia</button></a>
+       </div>
+
+      </p>
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    } 
+
+    #countdown-timer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      /* margin: 50px auto; */
+      width: 400px;
+      height: 400px;
+      position: relative;
+    }
+
+    .countdown-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #BF0C42;
+      color: #fff;
+      font-size: 36px;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .countdown-item span {
+      font-size: 18px;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  </style>
+  <script type="text/javascript">
+    function countdown() {
+      var now = new Date();
+      var eventDate = new Date("December 21, 2024 08:00:00");
+      var currentTime = now.getTime();
+      var eventTime = eventDate.getTime();
+      var remTime = eventTime - currentTime;
+
+      var seconds = Math.floor(remTime / 1000);
+      var minutes = Math.floor(seconds / 60);
+      var hours = Math.floor(minutes / 60);
+      var days = Math.floor(hours / 24);
+
+      hours %= 24;
+      minutes %= 60;
+      seconds %= 60;
+
+      if (remTime < 0) {
+        document.getElementById("countdown-timer").innerHTML = "<h2>The countdown is over!</h2>";
+      } else {
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("mins").innerHTML = minutes;
+        document.getElementById("secs").innerHTML = seconds;
+        setTimeout(countdown, 1000);
+      }
+    }
+  </script>
+</head>
+<body onload="countdown()">
+  <div id="countdown-timer">
+    <div class="countdown-item">
+      <div id="days"></div>
+      <span>DIAS</span>
+    </div>
+    <div class="countdown-item">
+      <div id="hours"></div>
+      <span>HRS</span>
+    </div>
+    <div class="countdown-item">
+      <div id="mins"></div>
+      <span>MINS</span>
+    </div>
+    <div class="countdown-item">
+      <div id="secs"></div>
+      <span>SEG</span>
+    </div>
+  </div>
+</body>
+</html>
+
+      <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+      <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
+      <script  src="./main.js"></script>
+      <script src="/wedding.js"></script>
+   </body>
+</html>
